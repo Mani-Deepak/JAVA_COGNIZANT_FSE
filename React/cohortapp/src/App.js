@@ -1,0 +1,1 @@
+import React from 'react'; import styles from './CohortDetails.module.css'; function App() { const status = "ongoing"; return ( <div className={styles.box}> <h3 style={{ color: status === 'ongoing' ? 'green' : 'blue' }}>Cohort Details</h3> <dl> <dt>Name</dt><dd>React JS</dd> </dl> </div> ); } export default App;

@@ -1,0 +1,1 @@
+import React from "react"; import ListofPlayers from "./ListofPlayers"; import IndianPlayers from "./IndianPlayers"; function App() { const flag = true; const players = [{name: "A", score: 80}, {name: "B", score: 60}]; if(flag) { return <ListofPlayers players={players} />; } else { return <IndianPlayers />; } } export default App;

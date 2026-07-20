@@ -1,0 +1,1 @@
+import CalculateScore from "./Components/CalculateScore"; function App() { return <CalculateScore Name="John" School="ABC" Total={250} Goal={3} />; } export default App;

@@ -1,0 +1,1 @@
+import React from "react"; const ListofPlayers = ({players}) => { return ( <div> {players.map(p => <div key={p.name}>{p.name} - {p.score}</div>)} <br/> <b>Score below 70:</b> {players.filter(p => p.score < 70).map(p => <div key={p.name}>{p.name} - {p.score}</div>)} </div> ); }; export default ListofPlayers;

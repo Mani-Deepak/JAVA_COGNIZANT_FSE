@@ -1,0 +1,1 @@
+import React from "react"; import "../Stylesheets/mystyle.css"; const CalculateScore = ({Name, School, Total, Goal}) => { return ( <div className="student-details"> <b>Student Details</b> <br/> Name: {Name} <br/> School: {School} <br/> Total: {Total} <br/> Score: {Total/Goal} </div> ); }; export default CalculateScore;
